@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        button{
+             transition: width 2s;height: 2s ;transform: 5s; 
+            /* transition-delay: 5s; */
+        }
+        button:hover {
+            background-color: burlywood;
+            /* transform: translate(25px,25px); */
+            /* transform: skew(10deg,30deg); */
+             width: 500px;
+            height: 100px; 
+            /* transform: rotate(180deg); */
+        
+        }
+
+        .div1 {
+            width: 900px;
+            height: 500px;
+            border: brown 3px solid;
+            margin-left: 200px;
+        }
+
+        .div1:hover{
+              transform: translate(50px,100px);  
+             /* transform: rotate(90deg) ; */
+             /* transform: scale(2,3 );  */
+        
+        }
+        p:first-child {
+            color: brown;
+        }
+
+        p:last-child {
+            color: rgb(11, 184, 40);
+        }
+
+        p:nth-child(2) {
+            color: rgb(11, 28, 184);
+        }
+         /* tr:nth-child(even) {background-color: darkorange;}
+        tr:nth-child(odd) {background-color:darkslategray;}  */
+        tr:nth-of-type(3n+1){
+            background-color:red;
+        }
+        tr:nth-of-type(3n+2){
+            background-color:green;
+        }
+        tr:nth-of-type(3n+3){
+            background-color:blue;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <button>Hellokkkkkkkk</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt animi a quia ullam, vero molestias
+            corporis modi fugit nulla magni saepe nobis temporibus. Qui aut fuga dolor nam ullam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt animi a quia ullam, vero molestias
+            corporis modi fugit nulla magni saepe nobis temporibus. Qui aut fuga dolor nam ullam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt animi a quia ullam, vero molestias
+            corporis modi fugit nulla magni saepe nobis temporibus. Qui aut fuga dolor nam ullam.</p>
+        <table border=5 width=200 hight:200px> 
+            <tr>
+
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+
+                <td>Name</td>
+                <td>Salary</td>
+            </tr>
+            <tr>
+
+                <td>Name</td>
+                <td>Salary</td>
+            </tr>
+            <tr>
+
+                <td>Name</td>
+                <td>Salary</td>
+            </tr>
+            <tr>
+
+                <td>Name</td>
+                <td>Salary</td>
+            </tr>
+            <tr>
+
+                <td>Name</td>
+                <td>Salary</td>
+            </tr>
+            <tr>
+
+                <td>Name</td>
+                <td>Salary</td>
+            </tr>
+
+        </table>
+
+        <!-- <form>
+
+            username: <input required>
+            <br>
+            passwrod: <input>
+  </form>
+            <p>paragraph-1</p>
+            <p>paragraph-2</p>
+            <p>paragraph-3</p>
+            <p>paragraph-4</p>
+            <p>paragraph-5</p> -->
+      
+    </div>
+
+</body>
+
+</html>

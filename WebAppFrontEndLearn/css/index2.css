@@ -1,0 +1,85 @@
+.pink{
+    text-decoration: underline;
+    color:crimson;
+    font-style: italic;
+    font-size: 150%;
+    text-align: center;
+}
+.red{
+    text-decoration: underline;
+    color:red;
+    position: sticky;
+    top:0;
+}
+.underline{
+    text-decoration: line-through;
+}
+#par3{
+    font-size: 15px;
+    line-height: 30px;
+    background-color: salmon;
+    padding: 5px;
+    margin: 10px;
+    background-color:green;
+    height: 100px;
+    overflow: auto;
+    border: 2px firebrick dotted;
+
+
+}
+
+#par4{
+    font-size: 15px;
+    line-height: 30px;
+    padding: 5px;
+    margin: 10px;
+    border-bottom-style:double;
+    border-bottom-width: 2px;
+    background-color:darkslategrey;
+    border-radius: 10px;
+    background-image: url(../images/cloud.jpg);
+}
+
+#par5{
+    position: fixed;
+    top:500px;
+    left: 50px;
+}
+
+#par6{
+font-size: medium;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px firebrick dotted;
+    padding: 5px;
+    float: left;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(129, 214, 165);
+    font-size: 25px;
+   
+}
+
+#maindiv{
+    color: black;
+}
+
+.highlight{
+background-color: yellow;
+}
+
+a:visited{
+    color:darkmagenta;
+}
+a:link{
+    color:cyan;
+}
+
+a:hover{
+    color: darkorange;
+  cursor: help;
+}
